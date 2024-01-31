@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobilizers - Mobile Services</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-image: url('random.jpeg'); /* Replace with your parallax image URL */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 150px 0;
+            text-align: center;
+            position: relative;
+        }
+
+        header h1, header p {
+            z-index: 1;
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 3em; /* Adjust the font size as needed */
+        }
+
+        header::after {
+            content: '';
+            background-color: rgba(0, 0, 0, 0.5);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        nav {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .what-we-offer {
+            font-color: black; /* Green background for "What We Offer" section */
+            color: ;
+            text-align: center;
+            padding: 150px 0;
+            font-size: 20px;
+        }
+
+        .service-buttons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+
+        .service-button {
+            text-align: center;
+            cursor: pointer;
+            padding: 20px;
+            background-color: #fff; /* Adjust the button color */
+            color: #27ae60; /* Adjust the text color */
+            border: none;
+            border-radius: 10px;
+            transition: background-color 0.3s, color 0.3s;
+            font-size: 1.5em; /* Adjust the font size */
+        }
+
+        .service-button:hover {
+            background-color: #27ae60; /* Adjust the hover background color */
+            color: #fff; /* Adjust the hover text color */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h2{
+          font-weight: 600;
+          text-align: center;
+          color: black;
+        }
+        p {
+  font-size: 0.875em;
+}
+
+header h3 {
+  font-weight: 600;
+  text-align: center;
+  color: #FFFFFF
+}
+
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Mobilizers</h1>
+        <h3>Your Mobile Service Provider</h3>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="container what-we-offer">
+        <h2 class="h2-heading">What We Offer</h2>
+        <div class="service-buttons">
+            <button class="service-button" onclick="window.location.href='booking.html'">
+                Mobile Oil Changes
+                <p>Oil changes at your location.</p>
+            </button>
+
+            <button class="service-button" onclick="window.location.href='booking.html'">
+                Tire Changes
+                <p>Swift and efficient tire change services.</p>
+            </button>
+
+            <button class="service-button" onclick="window.location.href='booking.html'">
+                Mobile Washrooms
+                <p>Portable washrooms for your convenience.</p>
+            </button>
+
+            <button class="service-button" onclick="window.location.href='booking.html'">
+                Mobile Storage
+                <p>Secure and mobile storage solutions.</p>
+            </button>
+        </div>
+    </div>
+
+    <!-- Rest of the content... -->
+
+    <footer>
+        <p>&copy; 2024 Mobilizers. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
